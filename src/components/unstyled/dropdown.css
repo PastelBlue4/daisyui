@@ -5,22 +5,22 @@
   @apply outline-none;
 }
 .dropdown .dropdown-content {
-  @apply invisible absolute z-50 opacity-0;
+  @apply absolute z-50 visible opacity-100;
 }
 .dropdown-end .dropdown-content {
   @apply right-0;
 }
 .dropdown-left .dropdown-content {
-  @apply top-0 right-full bottom-auto;
+  @apply top-0 bottom-auto right-full;
 }
 .dropdown-right .dropdown-content {
-  @apply left-full top-0 bottom-auto;
+  @apply top-0 bottom-auto left-full;
 }
 .dropdown-bottom .dropdown-content {
   @apply bottom-auto top-full;
 }
 .dropdown-top .dropdown-content {
-  @apply bottom-full top-auto;
+  @apply top-auto bottom-full;
 }
 .dropdown-end.dropdown-right .dropdown-content {
   @apply bottom-0 top-auto;
